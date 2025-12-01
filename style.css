@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #0a0f24;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    background: white;
+}
+
+.hero-text {
+    max-width: 45%;
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #0a0f24;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-img img {
+    width: 420px;
+    border-radius: 10px;
+}
+
+/* Features */
+.features {
+    text-align: center;
+    padding: 60px 40px;
+    background-color: #ffffff;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    background-color: #0a0f24;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #0a0f24;
+    padding: 20px;
+    color: white;
+    margin-top: 40px;
+}
